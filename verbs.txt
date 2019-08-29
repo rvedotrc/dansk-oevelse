@@ -1,164 +1,164 @@
-at accepte
-at hvile
-at advare
-at aflyse
-at afvise
+at acceptere, -r, -de, -t
+at advare,  -r, -de, -t
+at aflyse,  -r, aflyste, aflyst
+at afvise, -r, afviste, afvist
 at amme, -r, -de, -t
-at anbefale
-at ane
-at anerkende
-at anfalde
-at anholde
+at anbefale, -r, -de, -t
+at ane, -r, -de, -t
+at anerkende,  -r, ..kendte, ..kendt
+at anfalde, -r, anfaldt, -t
+at anholde, -r, anholdt, anholdt
 at ankomme, -r, ankom, -t / præteritum participium brugt som foranstillet adjektiv: -n eller -t, -t, ankomne
 at antage, -r, antog, -t / præteritum participium brugt som foranstillet adjektiv: -n eller -t, -t, antagne
-at arbejde
-at automatisere
-at bage
+at arbejde, -r, -de, -t
+at automatisere, -r, -de, -t
+at bage, -r, bagte eller bagede, bagt eller baget
+at bage, -r, bagte, bagt
 at banke, -r, -de, -t
 at bede, -r, bad eller (uofficielt) bedte, bedt / talesprogsefterlignende også: be', be'r
-at bedrage
-at begrave
-at begynde
+at bedrage, -r, bedrog eller -de, -t / præteritum participium brugt som foranstillet adjektiv: -n eller -t, -t, bedragne eller bedragede
+at begrave, -r, -de, -t
+at begynde, -r, begyndte, begyndt
 at begå, -r, begik, -et
-at behandle
-at beklage
+at behandle, -r, -de, -t
+at beklage, -r, -de, -t
 at bekræfte, -r, -de, -t
 at beskytte, -r, -de, -t
 at beslutte, -r, -de, -t
-at bestå
+at bestå, -r, bestod, -et
 at besøge, -r, besøgte, besøgt
-at betale
+at betale, -r, betalte, betalt
 at bide, -r, bed, bidt / bides: bides, bedes, bidtes
 at blande, -r, -de, -t
 at blive, -r, blev, blevet / talesprogsefterlignende også: bli', bli'r
-at blokke
-at blæse
+at blokke, -r, -de, -t
+at blæse, -r, blæste, blæst
 at bo, -r, -ede, -et
-at brokke
-at bruge
+at brokke, -r, -de, -t
+at bruge, -r, brugte, brugt
 at brygge, -r, -de, -t
-at brænde
-at burde
+at brænde, -r, brændte, brændt
+at burde, bør, -, -t
 at bygge, -r, -de, -t
-at bøjne
+at bøje, -r, -de, -t
 at cykle, -r, -de, -t
-at danne
+at danne, -r, -de, -t
 at dele, -r, delte, delt
-at dreje
+at dreje, -r, -de, -t
 at drikke, -r, drak, drukket
 at drille, -r, -de, -t
 at drive, -r, drev, drevet / præteritum participium brugt som foranstillet adjektiv: dreven eller drevet, drevet, drevne
 at dræbe, -r, dræbte, dræbt
-at drømme
+at drømme, -r, drømte, drømt
 at dukke, -r, -de, -t
-at dumpe
+at dumpe, -r, -de, -t
 at dyrke, -r, -de, -t
-at dække
+at dække, -r, -de, -t
 at dø, -r, -de, -d / -et
 at elske, -r, -de, -t
 at falde, -r, faldt, -t / præteritum participium brugt som foranstillet adjektiv: falden eller faldet, faldet, faldne
-at fange
-at fejre
-at fikse
-at finde
+at fange, -r, -de, -t / præteritum participium brugt som foranstillet adjektiv: -t eller -n, -t eller -nt, fangne
+at fejre, -r, -de, -t
+at fikse, -r, -de, -t
 at finde, -r, fandt, fundet / præteritum participium brugt som foranstillet adjektiv: fundet eller funden, fundet, fundne
-at fladre
 at flyve, -r, fløj, fløjet / præteritum participium brugt som foranstillet adjektiv: fløjen eller fløjet, fløjet, fløjne
-at fokusere
+at fokusere, -r, -de, -t
 at forbedre, -r, -de, -t
 at forberede, -r, forberedte, forberedt
-at forbinde
-at forbyde
-at foreslå
+at forbinde, -r, forbandt, forbundet / præteritum participium brugt som foranstillet adjektiv: forbunden eller forbundet, forbundet, forbundne
+at forbyde, -r, forbød, forbudt
+at foreslå, -r, forslog, -et
 at forklare, -r, -de, -t
-at forlade
-at forsvundne
+at forlade, -r, forlod, forladt
+at forsvinde, -r, forsvandt, forsvundet / præteritum participium brugt som foranstillet adjektiv: forsvunden eller forsvundet, forsvundet, forsvundne
 at forsøge, -r, forsøgte, forsøgt
 at forsørge, -r, -de, -t
 at fortryde, -r, fortrød, fortrudt
 at fortælle, -r, fortalte, fortalt
 at forvente, -r, -de, -t
 at forvirre, -r, -de, -t
-at fungere
-at fyre
+at fungere, -r, -de, -t
+at fyre, -r, -de, -t
 at få, -r, fik, -et
-at færdiggøre
+at færdiggøre, ..gør, ..gjorde, ..gjort
 at føle, -r, følte, følt
 at følge, -r, fulgte, fulgt
-at gemme
-at genkende
-at gentage
-at gide
-at gifte
+at gemme, -r, gemte, gemt
+at genkende, -r, genkendte, genkendt
+at gentage, -r, gentog, -t / præteritum participium brugt som foranstillet adjektiv: -n eller -t, -t, gentagne
+at gide, -r, gad, -t
+at gifte, -r, -de, -t
 at give, -r, gav, -t / talesprogsefterlignende også: gi', gi'r / præteritum participium brugt som foranstillet adjektiv: -n eller -t, -t, givne
-at glemme
-at godkende
-at gribe
-at grille
+at glemme, -r, glemte, glemt
+at godkende, -r, godkendte, godkendt
+at gribe, -r, greb, grebet / præteritum participium brugt som foranstillet adjektiv: grebet eller greben, grebet, grebne
+at grille, -r, -de, -t
 at grine, -r, -de eller grinte, -t eller grint
-at gynge
+at gynge, -r, -de, -t
 at gå, -r, gik, -et
-at gælde
-at gætte
+at gælde, -r, gjaldt, gjaldt (eller gældt)
+at gætte, -r, -de, -t
 at gøre, gør, gjorde, gjort
-at handle
+at handle, -r, -de, -t
 at have, har, havde, haft / talesprogsefterlignende også: ha'
-at hedde
-at hilse
-at hjælpe
-at holde
+at hedde, -r, hed, -t
+at hilse, -r, hilste, hilst
+at hjælpe, -r, hjalp, hjulpet / præteritum participium brugt som foranstillet adjektiv: hjulpen eller hjulpet, hjulpet, hjulpne
 at holde, -r, holdt eller (uofficielt) holdte, holdt
-at hoppe
-at hoste
-at huske
-at hviske
-at hygge
-at hylde
-at hænge
-at hæve
+at hoppe, -r, -de, -t
+at hoste, -r, -de, -t
+at huske, -r, -de, -t
+at hvile, -r, -de (eller hvilte), -t (eller hvilt)
+at hviske, -r, -de, -t
+at hygge, -r, -de, -t
+at hylde, -r, -de, -t
+at hænge, -r, hang eller hængte, hængt
+at hænge, -r, hængte, hængt
+at hæve, -r, -de, -t
 at høre, -r, hørte, hørt
 at indgå, -r, indgik, -et
-at infektere
-at inkludere
-at introducere
-at investere
+at inkludere, -r, -de, -t
+at introducere, -r, -de, -t
+at investere, -r, -de, -t
 at invitere, -r, -de, -t
-at jæge
+at jage, -r, jog eller -de, -t
 at kalde, -r, kaldede, kaldet
 at kalde, -r, kaldte, kaldet eller kaldt
 at kalde, -r, kaldte, kaldt
-at kaste
-at kede
-at kende
+at kaste, -r, -de, -t
+at kede, -r, -de, -t
+at kende, -r, kendte, kendt
 at kigge, -r, -de, -t
-at klappe
+at klappe, -r, -de, -t
 at klatre, -r, -de, -t
-at klæde
+at klæde, -r, klædte, klædt / talesprogsefterlignende også: klæ', klæ'r
 at koge, -r, kogte, kogt
 at komme, -r, kom, -t
-at koste
-at kramme
-at krænke
+at koste, -r, -de, -t
+at kramme, -r, -de, -t
+at krænke, -r, -de, -t
 at kræve, -r, -de, -t
 at kunne, kan, -, -t / talesprogsefterlignende også: ku', ka'
-at kvidre
+at kvidre, -r, -de, -t
 at kæmpe, -r, -de, -t
 at købe, -r, købte, købt
 at køre, -r, kørte, kørt
-at lade
+at lade, -r, lod, -t eller ladt / talesprogsefterlignende også: la', la'r   i udtrykket lade vandet: -r, -de (eller lod), -t eller ladt
+at lade, -r, -de, -t
+at lade, -r, -de, -t eller ladt
 at lave, -r, -de, -t
-at lege
+at lege, -r, -de, -t
+at leje, -r, -de, -t
 at leve, -r, -de, -t
-at levere
-at lide
-at ligge
+at levere, -r, -de, -t
+at lide, -r, led, lidt / talesprogsefterlignende (i udtrykket kunne lide) også: li'
 at ligge, -r, lå, -t
-at loade
-at love
-at lugte
-at lukke
-at lyse
-at lytte
+at loade, -r, -de, -t
+at love, -r, -de, -t
+at lugte, -r, -de, -t
+at lukke, -r, -de, -t
+at lyse, -r, lyste, lyst
+at lytte, -r, -de, -t
 at lyve, -r, løj, løjet
 at låne
 at låse

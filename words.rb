@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'json'
+
 def dotdotdot(grund, gren)
   (0..gren.length).to_a.reverse.each do |flex_længde|
     rød = gren[0...flex_længde]
@@ -21,11 +23,12 @@ verbs = IO.read('verbs.txt').each_line.map do |linje|
 
   # TODO handle det, der kommer efter '/'
   linje.sub!(/ *\/.*/, '')
-  stykker = linje.split(', ')
+  stykker = linje.split(/\s*,\s*/)
 
-  next if stykker.count == 1
-
-  stykker.count == 4 or raise "? #{linje}"
+  if stykker.count != 4
+    puts JSON.generate(linje: linje, ok: false)
+    next
+  end
 
   infinitiv = stykker[0]
   grund = infinitiv.sub(/^at /, '')
@@ -69,7 +72,5 @@ verbs.sort_by {|v| v[:infinitiv]}.each do |verbum|
     end
   end
 
-  if bad
-    p verbum
-  end
+  puts JSON.generate(verbum: verbum, ok: !bad)
 end
