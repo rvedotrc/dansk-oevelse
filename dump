@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'json'
+
+$: << '.'
+require 'ord_list'
+
+ord = OrdList.new
+
+puts JSON.generate(
+  verber: ord.verber,
+  fejl: ord.fejl,
+)
+
