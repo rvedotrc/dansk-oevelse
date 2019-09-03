@@ -6,7 +6,7 @@ $: << '.'
 require 'ord_list'
 
 def tjek_bøjning(matchende_verber, svar)
-  svar_ord = svar.split(/, /)
+  svar_ord = svar.split(/\s*,\s*/)
   return false if svar_ord.count != 3
 
   gætter = {
@@ -38,9 +38,12 @@ end
 
 ord_list = OrdList.new
 
+puts "Svarer skal gives i nutid, datid og førnutid (dvs 'at være' bliver: er, var, været)"
+puts
+
 while true
   matchende_verber = vælg_verbum(ord_list)
-  puts "Bøj verbum '#{matchende_verber.first[:infinitiv]}' i nutid, datid og førnutid (dvs 'at være' bliver: er, var, været)"
+  puts "Bøj verbet '#{matchende_verber.first[:infinitiv]}'"
 
   while true
     print "['meh' giver op] >> "
