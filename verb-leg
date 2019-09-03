@@ -1,0 +1,69 @@
+#!/usr/bin/env ruby
+
+require 'json'
+
+$: << '.'
+require 'ord_list'
+
+def tjek_bøjning(matchende_verber, svar)
+  svar_ord = svar.split(/, /)
+  return false if svar_ord.count != 3
+
+  gætter = {
+    nutid: svar_ord[0],
+    datid: svar_ord[1],
+    førnutid: svar_ord[2],
+  }
+
+  matchende_verber.each do |verbum|
+    ok = gætter.each_pair.all? do |form, gæt|
+      verbum[form].include?(gæt)
+    end
+    return true if ok
+  end
+
+  false
+end
+
+def vælg_verbum(ord_list)
+  gode = ord_list.verber.select {|v| v[:antal_dårligt] == 0 }
+  raise if gode.empty?
+
+  verbum = gode.shuffle.first
+
+  ord_list.verber.select do |v|
+    v[:infinitiv] == verbum[:infinitiv]
+  end
+end
+
+ord_list = OrdList.new
+
+while true
+  matchende_verber = vælg_verbum(ord_list)
+  puts "Bøj verbum '#{matchende_verber.first[:infinitiv]}' i formen af: at være, er, var, været"
+
+  while true
+    print "['meh' giver op] >> "
+    svar = $stdin.gets
+
+    if svar.nil?
+      puts
+      exit
+    end
+
+    svar.chomp!
+
+    if svar == 'meh'
+      puts "Nååå.  Muligt svarer var:"
+      p matchende_verber
+      break
+    end
+
+    if tjek_bøjning(matchende_verber, svar)
+      puts "korrekt!"
+      break
+    end
+  end
+end
+
+# eof

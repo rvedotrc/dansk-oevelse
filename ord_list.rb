@@ -82,8 +82,8 @@ class OrdList
         imperativ: imperativ,
         infinitiv: infinitiv,
         nutid: bøjninger[0],
-        førid: bøjninger[1],
-        datid: bøjninger[2],
+        datid: bøjninger[1],
+        førnutid: bøjninger[2],
       }
     end
 
@@ -93,7 +93,7 @@ class OrdList
 
   def tjek
     verber.sort_by {|v| v[:infinitiv]}.each do |verbum|
-      dårligt = [:nutid, :førid, :datid].map do |tid|
+      dårligt = [:nutid, :datid, :førnutid].map do |tid|
         verbum[tid].count do |ord|
           !ord.match(/^(\(uofficielt\) )?[a-zøæå]+$/)
         end
