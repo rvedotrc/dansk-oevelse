@@ -63,13 +63,16 @@ at fange, -r, -de, -t / præteritum participium brugt som foranstillet adjektiv:
 at fejre, -r, -de, -t
 at fikse, -r, -de, -t
 at finde, -r, fandt, fundet / præteritum participium brugt som foranstillet adjektiv: fundet eller funden, fundet, fundne
+at flagre, -r, -de, -t
 at flyve, -r, fløj, fløjet / præteritum participium brugt som foranstillet adjektiv: fløjen eller fløjet, fløjet, fløjne
+at fodre, -r, -de, -t
 at fokusere, -r, -de, -t
 at forbedre, -r, -de, -t
 at forberede, -r, forberedte, forberedt
 at forbinde, -r, forbandt, forbundet / præteritum participium brugt som foranstillet adjektiv: forbunden eller forbundet, forbundet, forbundne
 at forbyde, -r, forbød, forbudt
 at foreslå, -r, forslog, -et
+at forhindre, -r, -de, -t
 at forklare, -r, -de, -t
 at forlade, -r, forlod, forladt
 at forsikre, -r, -de, -t
@@ -304,6 +307,7 @@ at ville, vil, -, -t
 at vinde, -r, vandt, vundet / præteritum participium brugt som foranstillet adjektiv: vundet eller vunden, vundet, vundne
 at virke, -r, -de, -t
 at vise, -r, viste, vist
+at viske, -r, -de, -t
 at vokse, -r, -de, -t
 at vurdere, -r, -de, t
 at vælge, -r, valgte, valgt
