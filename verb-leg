@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require 'readline'
 
 $: << '.'
 require 'ord_list'
@@ -67,8 +68,7 @@ while true
   puts "Bøj verbet '#{matchende_verber.first[:infinitiv]}'"
 
   while true
-    print "['meh' giver op] >> "
-    svar = $stdin.gets
+    svar = Readline.readline("['meh' giver op] >> ", true)
 
     if svar.nil?
       puts
