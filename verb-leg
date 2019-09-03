@@ -21,14 +21,26 @@ def tjek_bøjning(matchende_verber, svar)
     førnutid: svar_ord[2],
   }
 
-  matchende_verber.each do |verbum|
-    ok = gætter.each_pair.all? do |form, gæt|
-      verbum[form].include?(gæt)
+  ok = matchende_verber.select do |verbum|
+    resultater = gætter.each_pair.map do |form, gæt|
+      if verbum[form].include?(gæt)
+        { ok: true, vis: gæt }
+      elsif verbum[form].count > 1
+        { ok: false, vis: "[#{verbum[form].count} muligheder]" }
+      else
+        { ok: false, vis: "[forkert]" }
+      end
     end
-    return true if ok
+
+    if resultater.all? {|r| r[:ok] }
+      true
+    else
+      puts "  " + resultater.map {|r| r[:vis] }.join(', ')
+      false
+    end
   end
 
-  false
+  ok.any?
 end
 
 def vælg_verbum(ord_list)
