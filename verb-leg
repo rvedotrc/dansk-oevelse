@@ -4,10 +4,16 @@ require 'json'
 
 $: << '.'
 require 'ord_list'
+require 'bøjning'
 
 def tjek_bøjning(matchende_verber, svar)
-  svar_ord = svar.split(/\s*,\s*/)
-  return false if svar_ord.count != 3
+  grund = matchende_verber.first[:infinitiv].sub('at ', '')
+
+  svar_ord = svar.split(/\s*,\s*/).map {|spec| Bøjning.bøj(grund, spec) }
+  if svar_ord.count != 3
+    puts "Man skal indtaste tre svar"
+    return false
+  end
 
   gætter = {
     nutid: svar_ord[0],
@@ -29,6 +35,7 @@ def vælg_verbum(ord_list)
   gode = ord_list.verber.select {|v| v[:antal_dårligt] == 0 }
   raise if gode.empty?
 
+  # gode = gode.select {|v| v[:infinitiv]=='at male'}
   verbum = gode.shuffle.first
 
   ord_list.verber.select do |v|
@@ -39,6 +46,8 @@ end
 ord_list = OrdList.new
 
 puts "Svarer skal gives i nutid, datid og førnutid (dvs 'at være' bliver: er, var, været)"
+puts "Du må bruge den forkortelse syntax: fx '-de' eller '...gør'"
+puts "Gruppe 1 er derfor '-r, -de, -t', der kan desuden blive forkortet bare til '1'"
 puts
 
 while true
@@ -58,8 +67,14 @@ while true
 
     if svar == 'meh'
       puts "Nååå.  Muligt svarer var:"
-      p matchende_verber
+      matchende_verber.each do |verbum|
+        puts "  " + verbum[:tekst]
+      end
       break
+    end
+
+    if svar == '1'
+      svar = '-r, -de, -t'
     end
 
     if tjek_bøjning(matchende_verber, svar)
@@ -67,6 +82,8 @@ while true
       break
     end
   end
+
+  puts ""
 end
 
 # eof

@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'bøjning'
+
 class OrdList
 
   attr_reader :verber, :fejl
@@ -21,18 +23,6 @@ class OrdList
     end
 
     [tekst]
-  end
-
-  def dotdotdot(grund, gren)
-    (0..gren.length).to_a.reverse.each do |flex_længde|
-      rød = gren[0...flex_længde]
-      blad = gren[flex_længde..-1]
-      indeks = grund.index(rød)
-      next if indeks.nil?
-      return grund[0...indeks] + gren
-    end
-
-    raise "Kunne ikke bøjne ord: #{grund}, #{gren}"
   end
 
   def parse
@@ -60,14 +50,7 @@ class OrdList
 
         former.map do |form|
           # TODO: handle '(uofficielt)'?
-
-          if form.start_with?('-')
-            form = grund + form[1..-1]
-          elsif form.start_with?('..')
-            form = dotdotdot(grund, form[2..-1])
-          end
-
-          form
+          Bøjning.bøj(grund, form)
         end
       end
 
