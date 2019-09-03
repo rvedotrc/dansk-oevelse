@@ -40,7 +40,7 @@ ord_list = OrdList.new
 
 while true
   matchende_verber = vælg_verbum(ord_list)
-  puts "Bøj verbum '#{matchende_verber.first[:infinitiv]}' i formen af: at være, er, var, været"
+  puts "Bøj verbum '#{matchende_verber.first[:infinitiv]}' i nutid, datid og førnutid (dvs 'at være' bliver: er, var, været)"
 
   while true
     print "['meh' giver op] >> "
