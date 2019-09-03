@@ -38,7 +38,7 @@ end
 
 ord_list = OrdList.new
 
-puts "Svarer skak gives i formen af: at være, er, var, været"
+puts "Svarer skal gives i formen af: at være, er, var, været"
 puts
 
 while true
