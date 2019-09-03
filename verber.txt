@@ -294,7 +294,7 @@ at udforske, -r, -de, -t
 at underskrive, -r, ..skrev, ..skrevet / præteritum participium brugt som foranstillet adjektiv: ..skreven eller ..skrevet, ..skrevet, ..skrevne
 at undgå, -r, undgik, -et
 at undre, -r, -de, -t
-at undskylde
+at undskylde, -r, undskyldte, undskyldt
 at vaske, -r, -de, -t
 at vende, -r, vendte, vendt
 at vente, -r, -de, -t
