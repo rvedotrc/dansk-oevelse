@@ -26,7 +26,7 @@ class OrdList
   end
 
   def parse
-    IO.read('verber.txt').each_line do |linje|
+    IO.read('etc/verber.txt').each_line do |linje|
       linje.chomp!
       linje.sub!(/^ */, '')
       linje.sub!(/ *$/, '')
@@ -82,7 +82,7 @@ class OrdList
         end
       end.reduce(&:+)
 
-      verbum[:antal_dårligt] = dårligt
+      verbum[:antal_dårlige] = dårligt
     end
   end
 end

@@ -24,10 +24,7 @@ Svar kan gives i flere former:
 Svaret "-r, -de, -t" betyder selvfølgelig gruppe 1. Dette svar er så
 almindeligt, så der er endnu et andet svar: man kan bare indtast "1".
 
-## `./dump`
+## `./dump` / `Makefile`
 
-Kan bruges at tjekke, at den list af verber er i orden.
+Kan bruges at tjekke, at den list af verber er i orden.  Kør `make clean ; make`.
 
-  * Vis det hele: `./dump > verber.json`
-  * Vis fejlmeddelelser: `./dump | jq .fejl[]`
-  * Vis dårlige verber: `./dump | jq '.verber[] | select(.["antal_dårligt"] >= 0)'`

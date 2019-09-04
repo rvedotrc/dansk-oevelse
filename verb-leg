@@ -45,7 +45,7 @@ def tjek_bøjning(matchende_verber, svar)
 end
 
 def vælg_verbum(ord_list)
-  gode = ord_list.verber.select {|v| v[:antal_dårligt] == 0 }
+  gode = ord_list.verber.select {|v| v[:antal_dårlige] == 0 }
   raise if gode.empty?
 
   # gode = gode.select {|v| v[:infinitiv]=='at male'}
